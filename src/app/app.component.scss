@@ -1,0 +1,153 @@
+
+ a{ 
+    display: block; 
+    text-decoration: none; 
+    } 
+    .sidenav{ 
+    height: 100%; 
+    width: 240px; 
+    position: fixed; 
+    overflow-x: hidden; 
+    z-index: 1; 
+    padding: 20px 0px 0px 0px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    } 
+    .main{ 
+    display: flex; 
+    margin-left: 300px; 
+    padding-top: 90px; 
+    } 
+    p{ 
+    padding-left: 50px; 
+    } 
+    h1 ~ a{ 
+    line-height: 3; 
+    color: gray; 
+    } 
+    .sidenav button{ 
+    border-radius: 25px; 
+    padding: 15px 50px 15px 50px; 
+    background-color: #f25045; 
+    color: white; 
+    border: none; 
+    margin-top: 70px; 
+    } 
+    .sidenav h1 a{ 
+    color: black; 
+    font-size: 40px; 
+    } 
+    img{ 
+    border-radius: 50%; 
+    height: 100px; 
+    width: 100px; 
+    } 
+    .item{ 
+    height: 200px; 
+    width: 150px; 
+    border-radius: 25px; 
+    margin: 10px; 
+    padding: 10px; 
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); 
+    text-align: center; 
+    } 
+    .container{ 
+    display: flex; 
+    margin-left: 300px; 
+    margin-top: 50px; 
+    }
+    .cba2{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+   hr{
+    display: block;
+    width: 40px;
+    margin-left: 100px;
+    margin-top: -316px;
+   border-color:#f25045; 
+   }
+   .main hr{
+       
+       display: block;
+       width: 135px;
+        margin-left: -180px;
+        margin-top: 83px;
+        display: flex;
+        
+       border-color:#f25045; 
+   }
+   
+     
+    @media screen and (max-width: 800px){ 
+      .side{
+          display: none;
+      }
+     .sidenav{
+         display: none;
+         position: relative;
+     }
+     .main h1{
+         display: block;
+         position: absolute;
+         top: 20px;
+         left: 50px;
+     }
+     .container{
+         display:flex;
+         flex-wrap: wrap;
+         margin-left: 0px; 
+         margin-top: 0px; 
+        
+     }
+     .cba2{
+         display: block;
+     }
+     .cbaside{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         margin-top: 20px;
+     }
+     body{
+         max-width: 300px;
+     }
+     .main p{
+         display: none;
+       
+        bottom: 0%;
+        left: 50px;
+     }
+     .item{
+        height: 150px; 
+        width: 100px; 
+        border-radius: 25px; 
+        margin: 10px; 
+        padding: 10px; 
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); 
+        text-align: center;
+     }
+     .item1{
+         display: none;
+     }
+     .footer{
+        display: block; 
+     }
+     i{
+         color: #f25045;
+     }
+     hr{
+         display: block;
+        width: 65px;
+        margin-left: 50px;
+        margin-top: 10px;
+       border-color:#f25045; 
+    }
+    .main hr{
+        display: none;
+    }
+} 
+    
